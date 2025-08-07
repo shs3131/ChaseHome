@@ -1,0 +1,182 @@
+[
+  {
+    "id": "fix_power",
+    "name": "Sigorta Kutusunu Onar",
+    "description": "Işıkların gelmesi için sigorta kutusunu tamir et",
+    "task_type": "repair",
+    "steps": 3,
+    "interact_time": 5.0,
+    "requires_all_players": false
+  },
+  {
+    "id": "fix_photo",
+    "name": "Eski Fotoğrafı Yeniden Kur",
+    "description": "Parçaları sırayla birleştirerek fotoğrafı tamamla",
+    "task_type": "puzzle",
+    "steps": 4,
+    "interact_time": 8.0,
+    "requires_all_players": false
+  },
+  {
+    "id": "open_coded_door",
+    "name": "Kodlu Kapıyı Aç",
+    "description": "Evdeki nesnelerden sayıları bularak kapıyı aç",
+    "task_type": "puzzle",
+    "steps": 1,
+    "interact_time": 10.0,
+    "requires_all_players": false
+  },
+  {
+    "id": "fix_toy",
+    "name": "Kurmalı Oyuncak Tamiri",
+    "description": "Dişlileri sırayla takarak oyuncağı çalıştır",
+    "task_type": "repair",
+    "steps": 5,
+    "interact_time": 7.0,
+    "requires_all_players": false
+  },
+  {
+    "id": "reopen_door",
+    "name": "Kapanan Kapıyı Yeniden Aç",
+    "description": "Diğer katlardan güç vererek kapıyı aç",
+    "task_type": "interact",
+    "steps": 1,
+    "interact_time": 3.0,
+    "requires_all_players": true
+  },
+  {
+    "id": "adjust_radio",
+    "name": "Radyo Frekansı Ayarla",
+    "description": "Doğru frekansı bularak gizli mesajı al",
+    "task_type": "interact",
+    "steps": 1,
+    "interact_time": 6.0,
+    "requires_all_players": false
+  },
+  {
+    "id": "find_key",
+    "name": "Kayıp Anahtarı Bul",
+    "description": "Random konumda spawn olan anahtarı bul",
+    "task_type": "collect",
+    "steps": 1,
+    "interact_time": 2.0,
+    "requires_all_players": false
+  },
+  {
+    "id": "fix_leak",
+    "name": "Su Sızıntısını Kapat",
+    "description": "Boru parçalarını birleştirerek sızıntıyı kapat",
+    "task_type": "repair",
+    "steps": 3,
+    "interact_time": 4.0,
+    "requires_all_players": false
+  },
+  {
+    "id": "sort_books",
+    "name": "Kitapları Sıralama",
+    "description": "Kitapları harf sırasına göre yerleştir",
+    "task_type": "puzzle",
+    "steps": 6,
+    "interact_time": 9.0,
+    "requires_all_players": false
+  },
+  {
+    "id": "collect_notebook",
+    "name": "Not Defterini Topla",
+    "description": "4 farklı yerdeki sayfaları toplayarak defteri tamamla",
+    "task_type": "collect",
+    "steps": 4,
+    "interact_time": 3.0,
+    "requires_all_players": false
+  },
+  {
+    "id": "disable_alarm",
+    "name": "Alarm Sistemini Devre Dışı Bırak",
+    "description": "Belirlenen süre içinde alarm sistemini kapat",
+    "task_type": "interact",
+    "steps": 1,
+    "interact_time": 15.0,
+    "requires_all_players": false
+  },
+  {
+    "id": "hang_painting",
+    "name": "Tabloyu Yeniden As",
+    "description": "Tabloyu dengede asmazsan düşüp ses yapar",
+    "task_type": "puzzle",
+    "steps": 2,
+    "interact_time": 5.0,
+    "requires_all_players": false
+  },
+  {
+    "id": "open_secret_compartment",
+    "name": "Dolapta Gizli Bölmeyi Aç",
+    "description": "Puzzle çözerek gizli bölmeyi aç",
+    "task_type": "puzzle",
+    "steps": 3,
+    "interact_time": 8.0,
+    "requires_all_players": false
+  },
+  {
+    "id": "arrange_dolls",
+    "name": "Kuklaları Doğru Diz",
+    "description": "Yanlış dizilirse ışık gider",
+    "task_type": "puzzle",
+    "steps": 4,
+    "interact_time": 6.0,
+    "requires_all_players": false
+  },
+  {
+    "id": "collect_pills",
+    "name": "Yere Saçılan İlaçları Topla",
+    "description": "Zamanla etkisi olan ilaçları topla",
+    "task_type": "collect",
+    "steps": 5,
+    "interact_time": 4.0,
+    "requires_all_players": false
+  },
+  {
+    "id": "adjust_thermometer",
+    "name": "Termometreyi Ayarla",
+    "description": "Belirli sıcaklığı tuttur",
+    "task_type": "interact",
+    "steps": 1,
+    "interact_time": 7.0,
+    "requires_all_players": false
+  },
+  {
+    "id": "clean_mirrors",
+    "name": "Aynaları Temizle",
+    "description": "Arkasındaki yazıyı görmek için aynaları temizle",
+    "task_type": "interact",
+    "steps": 3,
+    "interact_time": 4.0,
+    "requires_all_players": false
+  },
+  {
+    "id": "open_birdcage",
+    "name": "Kuş Kafesini Aç",
+    "description": "Sesle yaratık tetiklenir, dikkatli ol",
+    "task_type": "interact",
+    "steps": 1,
+    "interact_time": 3.0,
+    "requires_all_players": false
+  },
+  {
+    "id": "collect_diaries",
+    "name": "Günlükleri Topla ve Oku",
+    "description": "Sırayla okununca kilit açılır",
+    "task_type": "collect",
+    "steps": 3,
+    "interact_time": 6.0,
+    "requires_all_players": false
+  },
+  {
+    "id": "match_wall_codes",
+    "name": "Duvardaki Kodları Eşleştir",
+    "description": "Renk/kod/harf puzzle'ını çöz",
+    "task_type": "puzzle",
+    "steps": 5,
+    "interact_time": 10.0,
+    "requires_all_players": false
+  }
+]
